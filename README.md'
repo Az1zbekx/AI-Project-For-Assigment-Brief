@@ -1,0 +1,139 @@
+# 🎓 Grant AI System
+
+Talabalarning grant olish ehtimoli va grant miqdorini bashorat qiluvchi sun’iy intellekt tizimi.
+
+Ushbu loyiha Random Forest Classifier va Random Forest Regressor algoritmlari yordamida ishlab chiqilgan. Tizim talaba ma’lumotlarini tahlil qiladi, grant olish huquqini aniqlaydi va grant foizini hisoblab beradi.
+
+---
+
+# 🚀 Texnologiyalar
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Joblib
+* Streamlit
+
+---
+
+# 📂 Loyiha tuzilmasi
+
+```text
+Grant_AI/
+│
+├── Data/
+├── Models/
+├── Notebooks/
+├── Utils/
+│   ├── __init__.py
+│   └── preprocess.py
+│
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# ⚙️ Loyihani ishga tushirish
+
+## 1. Repository ni clone qilish
+
+```bash
+git clone https://github.com/Az1zbekx/Grant_AI.git
+```
+
+```bash
+cd Grant_AI
+```
+
+---
+
+## 2. Virtual Environment yaratish (ixtiyoriy)
+
+Linux / MacOS:
+
+```bash
+python3 -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+Windows:
+
+```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+```
+
+Agar virtual environment ishlatishni istamasangiz, ushbu bosqichni o‘tkazib yuborishingiz mumkin.
+
+---
+
+## 3. Kerakli kutubxonalarni o‘rnatish
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Streamlit ilovasini ishga tushirish
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🧠 Tizim qanday ishlaydi?
+
+1. Foydalanuvchi talaba ma’lumotlarini kiritadi.
+2. Ma’lumotlar preprocessing bosqichidan o‘tkaziladi.
+3. Random Forest Classifier grant olish huquqini aniqlaydi.
+4. Agar talaba grant olish huquqiga ega bo‘lsa, Random Forest Regressor grant foizini hisoblaydi.
+5. Tizim grant foizi va grant miqdorini chiqaradi.
+
+---
+
+# 📊 Modellar
+
+### Random Forest Classifier
+
+Talabaning grant olish huquqiga ega yoki ega emasligini aniqlaydi.
+
+### Random Forest Regressor
+
+Grant olish huquqiga ega talabalar uchun grant foizini bashorat qiladi.
+
+---
+
+# 📈 Model natijalari
+
+### Classification
+
+* Accuracy: 94.18%
+* Precision: 94.02%
+* Recall: 97.20%
+* F1 Score: 95.59%
+
+### Regression
+
+* MAE: 1.0991
+* RMSE: 1.5697
+* R² Score: 0.8963
+
+---
+
+# 👨‍💻 Muallif
+
+Azizbek
+
+GitHub:
+https://github.com/Az1zbekx
